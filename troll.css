@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('"E:\trolleypay\depositphotos_24392427-stock-photo-female-customer-shopping-at-supermarket.jpg".jpg')
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #eee;
+    padding: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+.leftalig{
+    text-align: left;
+
+}
+.rightalig{
+    text-align: right;
+}
+.pay-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #007BFF; /* Blue color */
+    color: #007BFF; /* Text color */
+    background-color: white; /* Button background color */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    z-index: 999; /* Ensure the button is on top of other elements */
+}
+/* Hover effect for the button */
+.pay-now-button:hover {
+    background-color: #007BFF; /* Blue color on hover */
+    color: white; /* Text color on hover */
+}
+.table-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style for the "Total" row */
+.total-row {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #8b8787;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    width: 45%;
+}
+
+.footer-item h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-item {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+}
+
